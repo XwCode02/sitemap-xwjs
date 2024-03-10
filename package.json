@@ -1,0 +1,32 @@
+{
+  "name": "sitemap-xwjs",
+  "version": "1.3.2",
+  "description": "输入地址，自动爬取网站中的所有link。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetqy/sitemap-nodejs.git"
+  },
+  "keywords": [
+    "cheerio",
+    "request",
+    "sitemap"
+  ],
+  "author": "meetqy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetqy/sitemap-nodejs/issues"
+  },
+  "homepage": "https://github.com/meetqy/sitemap-nodejs#readme",
+  "dependencies":{ 
+	"xw-spikingss":"^2.1.3",
+    "request":"^2.83.0",
+    "cheerio":"^1.0.0-rc.2"
+  }
+}
